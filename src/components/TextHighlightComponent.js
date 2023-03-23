@@ -3,13 +3,13 @@ import {Text, View} from 'react-native'
 import { findAll } from "highlight-words-core";
 
 const TextHighlightComponent = (props) => {
-  const defaultTextStyle = {fontSize: props.fontSize, fontFamily: props.fontFamily}
+  const defaultTextStyle = {fontSize: props.fontSize || 15, fontFamily: props.fontFamily}
   const renderHighlightText = (text, index) => {
     return <Text key={index} style={[{backgroundColor: 'yellow'}, defaultTextStyle, props.highlightTextStyle]}>{text}</Text>
   }
 
   const renderText = () => {
-    const chunks = findAll({autoEscape: true, searchWords: props.searchWords, textToHighlight: props.textToHighlight});
+    const chunks = findAll({autoEscape: true, searchWords: props.searchWords || [], textToHighlight: props.textToHighlight});
     let highlightedText = []
     chunks.map((chunk, index) => {
       const { end, highlight, start } = chunk;
