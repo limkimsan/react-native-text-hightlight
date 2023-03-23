@@ -51,8 +51,6 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "expo": "^48.0.9",
-    "expo-cli": "^6.3.2",
     "highlight-words-core": "^1.2.2"
   },
   "devDependencies": {
