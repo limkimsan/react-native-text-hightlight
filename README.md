@@ -1,5 +1,5 @@
 # react-native-audio-player-button
-<span><img src="https://user-images.githubusercontent.com/18114944/218962104-0533269e-2ff3-49a5-9dd4-d7dd14e821e3.png" width="250" height="500" /></span>
+<span><img src="https://user-images.githubusercontent.com/18114944/227136134-d90f2305-420a-40c0-8a0e-02007b055ba4.png" width="250" height="500" /></span>
 
 React Native Text Highlight is a custom component to highlight the searched word in a sentence using the [highlight-words-core](https://github.com/bvaughn/highlight-words-core).
 
