@@ -9,7 +9,7 @@ iOS & Android
 ## Installation
 
 ```sh
-npm install react-native-text-highlight
+npm install react-native-text-highlighter
 ```
 
 #### Note:
@@ -18,7 +18,7 @@ You need to make configuration on iOS and Android by following the instruction f
 ## Usage
 
 ```js
-import TextHighlight from 'react-native-text-highlight';
+import TextHighlight from 'react-native-text-highlighter';
 
 //...
 
