@@ -1,5 +1,5 @@
 {
-  "name": "@limkimsan/react-native-text-highlight",
+  "name": "react-native-text-highlighter",
   "version": "1.0.0",
   "description": "test",
   "main": "lib/commonjs/index",
