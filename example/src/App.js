@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import TextHighlight from 'react-native-text-highlight';
+import TextHighlight from 'react-native-text-highlighter';
 
 export default function App() {
   return (
