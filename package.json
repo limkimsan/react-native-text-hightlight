@@ -1,7 +1,7 @@
 {
   "name": "react-native-text-highlighter",
-  "version": "1.0.1",
-  "description": "test",
+  "version": "1.0.2",
+  "description": "A custom component to highlight the searched word in a provided sentence.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
