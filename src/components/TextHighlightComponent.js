@@ -23,7 +23,9 @@ const TextHighlightComponent = (props) => {
   }
 
   return <View style={[{flexDirection: 'row', flexWrap: 'wrap'}, props.containerStyle]}>
-            {renderText()}
+            <Text numberOfLines={props.numberOfLines}>
+              {renderText()}
+            </Text>
          </View>
 }
 
