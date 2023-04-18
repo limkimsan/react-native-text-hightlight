@@ -36,6 +36,7 @@ import TextHighlight from 'react-native-text-highlighter';
 | searchWords        |      []       |     `array`      |   `false`  | The array of search words                         |
 | fontSize           |       15      |     `number`     |   `true`   | The font size of the text                         |
 | fontFamily         |      null     |     `string`     |   `true`   | The font family of the text                       |
+| numberOfLines      |      null     |     `number`     |   `true`   | The number of lines to render the text            |
 
 #### Custom styles
 
