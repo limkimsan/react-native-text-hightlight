@@ -44,6 +44,7 @@ import TextHighlight from 'react-native-text-highlighter';
 | :-------------------- | :-----------: | :-------: | :--------: | :-------------------------------------------------- |
 | containerStyle        |     {...}     |  `style`  |   `true`   | Style of the container of the text                  |
 | highlightTextStyle    |     {...}     |  `style`  |   `true`   | Style of the highlighted text                       |
+| textStyle             |     {...}     |  `style`  |   `true`   | Style of the entire text (highlighted & not highlighted text)                 |
 
 
 ## Contributing

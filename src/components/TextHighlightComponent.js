@@ -3,7 +3,7 @@ import {Text, View} from 'react-native'
 import { findAll } from "highlight-words-core";
 
 const TextHighlightComponent = (props) => {
-  const defaultTextStyle = {fontSize: props.fontSize || 15, fontFamily: props.fontFamily}
+  const defaultTextStyle = props.textStyle || {fontSize: props.fontSize || 15, fontFamily: props.fontFamily}
   const renderHighlightText = (text, index) => {
     return <Text key={index} style={[{backgroundColor: 'yellow'}, defaultTextStyle, props.highlightTextStyle]}>{text}</Text>
   }
