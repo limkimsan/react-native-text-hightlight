@@ -54,6 +54,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
+    "browserslist": "^4.23.0",
     "expo": "^49.0.23",
     "highlight-words-core": "^1.2.2",
     "node-forge": "^0.10.0",
