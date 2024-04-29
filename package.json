@@ -54,6 +54,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
+    "expo": "^49.0.23",
     "highlight-words-core": "^1.2.2",
     "vm2": "^3.9.19"
   },
